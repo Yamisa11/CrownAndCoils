@@ -5,6 +5,7 @@ import { useState, useRef } from 'react';
 
 
 function MainComponent() {
+  
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [cartItems, setCartItems] = useState([]);
   const [showCart, setShowCart] = useState(false);
