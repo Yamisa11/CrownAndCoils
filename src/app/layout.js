@@ -1,5 +1,6 @@
 import { Inter } from 'next/font/google'
-import '../app/styles/globals.css'
+import './globals.css';  // If you place it under the app folder itself
+
 
 const inter = Inter({ subsets: ['latin'] })
 
